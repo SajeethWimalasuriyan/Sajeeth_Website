@@ -28,12 +28,14 @@ body{
     height: 100%;
     width: 100px;
     position: fixed;
+    
 }
 .sidebar2{
     background-color:white;
     height: 100%;
     width: 100px;
     position: fixed;
+    
 }
 #main_container{
     font-family: 'Quicksand';
@@ -70,15 +72,16 @@ li{
 }
 ul{
     margin-left: -16px;
+
 }
 p{
     margin: 0px 100px 100px 100px;
     font-size: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .sidebar{
-        transform: translate(-100px,0);
+        transform: translate(-100px,0); 
         position: fixed;
     }
     #menu_button{
@@ -86,17 +89,13 @@ p{
         position: fixed;
     }
     #main_container{
-        font-size: 27px;
+        font-size: 4.7vw;
         margin-left:0;
-        height: 1000px;
-     
     }
-    #down_arrow{
-        position: sticky;
-        bottom: 0;
-        padding-top: 30%;
+    h1{
+        padding-top: 12%;
+        text-align:center
+       
     }
-    #second_container{
-        padding-top:29px;
-    }
+   
 }
