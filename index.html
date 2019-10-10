@@ -1,33 +1,247 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Sajeeth Wimalasuriyan
-        </title>
-        <link rel = "stylesheet" type = "text/css" href = "index_style.css">   
-        <script  src = "Index_JS.js"></script>
-    </head>
-    <body>
-        <div id = "side" class = "sidebar">
-            <ul>
-                <li ><img class = "side_image" src = "home.png"></li>
-                <li ><img class = "side_image" src = "github.png"></li>
-                <li><img class = "side_image" src = "contact.png"></li>
-                <li><img class = "side_image" src = "projects.png"></li>
-                <li><img class = "side_image" src = "link.png"></li>
-                <li><img class = "side_image" src = "about.png"></li>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/6c77fb51a2.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src = "index.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class = "navbar_ex">
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+      
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                 <li class = "nav-item">
+                     <a class="nav-link" href="#">Linkedin</a>
+                 </li>
+                </ul>
+          </div>
+        </nav>
+    </div>
 
-
-            </ul>
-        </div>
-        <div id = "main_container">
-            <h1>
-                Sajeeth<br>Wimalasuriyan
-            </h1>
-       
-        <a class = "side_image" id = "menu_button" type="button" value="clickme" 
-        onclick="doFunction();"><img src = "nav_icon.png" 
-        class = "side_image"></a>
-        </body>
+      </div>
+      
+      <div class = "main_page">
         
-</html> 
+      <h1 id = "intro">
+        Sajeeth <br> Wimalasuriyan
+      </h1>
+      <img id = "arrow" src = "arrow.png" alt = "arrow">
+      </div>
+
+    
+     <main>
+        <h2>
+            About Me:
+</h2>
+       <div class = "about">
+
+          <div class = "description">
+             <img src = "me.png" alt = "picture of me">
+              <p>
+                              I am a avid programmer and a student at the university of Toronto. I currently study computer science and information systems.
+                              I enjoy learning about new technology everyday and I can code in languages like Java, Python, HTML, CSS and JavaScript. 
+              </p>
+             
+             </div>
+          <div class = "skills">
+              <div class="bar_flex">
+      
+                  <div class="bar_fill" style="width:85%; height:100%">
+                      <span class = "per">Html: 90%</span>
+                  </div>
+                  
+                </div>
+                <div class="bar_flex">
+      
+                    <div class="bar_fill" style="width:75%; height:100%">
+                        <span class = "per">Css: 80%</span>
+                    </div>
+                    
+                  </div>
+              <div class="bar_flex">
+      
+                  <div class="bar_fill" style="width:70%; height:100%">
+                      <span class = "per">python: 70%</span>
+                  </div>
+                  
+                </div>
+          <div class="bar_flex">
+      
+                  <div class="bar_fill" style="width:85%; height:100%">
+                      <span class = "per">javascript: 90%</span>
+                  </div>
+                  
+                </div>
+          <div class="bar_flex">
+      
+                  <div class="bar_fill" style="width:85%; height:100%">
+                      <span class = "per">java: 90%</span>
+                  </div>
+                  
+                </div>
+          <div class="bar_flex">
+      
+                  <div class="bar_fill" style="width:85%; height:100%">
+                      <span class = "per">git: 90%</span>
+                  </div>
+                  
+                </div>
+          
+          
+          
+
+          </div>
+          <div class = "website">
+              <div class = "cell-1">
+                  <i class="fas fa-laptop"style = "font-size:69px; color: #3AAFA9; padding: 16px;"></i>
+                  <h3>
+                      Responsive
+                  </h3>
+                  <p>
+                        A website should look good regardless of screen size.
+                  </p>
+                  
+                
+          </div>
+      <div class = "cell-2">
+              <i class="fas fa-rocket"style = "font-size:69px; color: #3AAFA9; padding: 16px;"></i>
+              <h3>
+                  Dynamic
+              </h3>
+              <p>
+                  Websites should change and adapt to the way a user interacs with them.
+  
+              </p>
+              
+          </div>
+      <div class = "cell-3">
+              <i class="far fa-window-restore"style = "font-size:69px; color: #3AAFA9; padding: 16px;"></i>
+              <h3>
+                  Intuitive
+              </h3>
+              <p>
+                     A UI/UX should be easy to understand and use for everyone.
+              </p>
+              
+          </div>
+      <div class = "cell-4">
+              <i class="fab fa-chrome"style = "font-size:69px; color: #3AAFA9; padding: 16px;"></i>
+              <h3>
+                  Compatibilty
+              </h3>
+              <p>
+                Develope websites to work on all popular browsers.
+              </p>
+              
+           </div>
+      </div>
+          </div>
+
+
+       </div>
+      
+     
+    </main>
+  
+    <div class = "projects">
+        <h2>
+            My Projects
+          </h2>
+      <div class = "my_stuff">
+          <div class = "disc_1">
+          
+              <img src = "revo.png" alt = "my work at revo health">
+            </div>
+        <div class = "project_1 project_border">
+          <h3>
+            Revo-Health
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies non sapien non feugiat. Nulla elementum libero ut metus ultrices, at pretium lectus pulvinar. Suspendisse elementum id ipsum ut commodo. Proin quam arcu, condimentum in accumsan at, gravida id ante. 
+          </p>
+        </div>
+         
+        <div class = "disc_2 ">
+          <img src = "company.png" alt = "my work at revo health">
+        </div>
+        <div class = "project_2 project_border">
+            <h3>
+                OutsourceTech
+              </h3>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies non sapien non feugiat. Nulla elementum libero ut metus ultrices, at pretium lectus pulvinar. Suspendisse elementum id ipsum ut commodo. Proin quam arcu, condimentum in accumsan at, gravida id ante. 
+                </p>
+        </div>
+        <div class = "disc_3">
+          <img src = "visual.jpg" alt = "my work at revo health">
+        </div>
+        <div class = "project_3 project_border">
+            <h3>
+                Markerting Solutions
+              </h3>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies non sapien non feugiat. Nulla elementum libero ut metus ultrices, at pretium lectus pulvinar. Suspendisse elementum id ipsum ut commodo. Proin quam arcu, condimentum in accumsan at, gravida id ante. 
+                </p>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class = "see_more">
+
+        <h4>
+            Want to see more Projects?
+          </h4>
+        <a href = "https://github.com/SajeethWimalasuriyan">Click Here</a>
+
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+<div class = "contact">
+  <h2>
+    Contact
+  </h2>
+  <form action="https://formspree.io/sajeethwim2579@icloud.com" method="POST">
+  
+  <input name = "Email" id  = "email" type = "text" placeholder="Email"> 
+  <br>
+  
+  <input name = "Name" id = "name" type = "text" placeholder = "Your Name">
+  <br>
+  <input name = "Message" id = "message" type = "text" placeholder="Your Message">
+  <br>
+  <input id = "sub" type = "submit" value = "Submit">
+  </form>
+</div>
+
+  <footer>
+    <p>
+      sajeeth wimalasuriyan all rights reserved.
+    </p>
+  </footer>
+  </body>
+</html>
