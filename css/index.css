@@ -286,7 +286,7 @@ a:hover{
     width: 160px;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 880px){
 
  
     .about{
@@ -294,9 +294,6 @@ a:hover{
     }
     .pdesk{
         width: 90vw;
-    }
-    .description{
-        margin: 0px auto;
     }
 }
 
