@@ -178,12 +178,13 @@ p{
   
 }
 .my_stuff{
-
+    margin-top: 39px;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     
 }
+
 .project_1{
     grid-column: 1;
     grid-row:1;
@@ -191,14 +192,16 @@ p{
 .project_2{
     grid-column: 2;
     grid-row:2;
-
-   
+    
 }
 .project_3{
     grid-column: 1;
     grid-row:3;
-    
    
+   
+}
+.project_border{
+    border-bottom-style: hidden;
 }
 .disc_1{
     grid-column: 2;
@@ -215,6 +218,7 @@ p{
 .disc_3{
     grid-column: 2;
     grid-row:3;
+    
 }
 .my_stuff img{
     width: 50vw;
@@ -232,7 +236,7 @@ p{
 }
 .projects h2{
     color: white;
-    padding: 30px;
+   
 }
 
 .see_more{
@@ -276,6 +280,14 @@ a:hover{
     color: white;
     
 }
+.contact form{
+    margin-top:30px;
+    margin-bottom: 39px;
+}
+#sub{
+    margin-top: 21px;
+}
+
 #message{
     height: 160px;
 }
@@ -285,7 +297,25 @@ a:hover{
     color: white;
     width: 160px;
 }
+footer{
+    color: white;
+    height: 150px;
+    background-color: black;
+    text-align: center;
+    
+}
+footer p{
+    font-size: 15px;
+    padding-top: 18px;
+    
 
+}
+.phantomBorder{
+    border-bottom: solid;
+    border-bottom-color: var(--sky_blue);
+    width: 180px;
+    margin:0 auto;
+}
 @media only screen and (max-width: 880px){
 
  
@@ -302,6 +332,9 @@ a:hover{
     .my_stuff {
         display: inline-block;
        
+    }
+    .disc_2, .disc_3{
+        margin-top:10px;
     }
     .website{
         display: inline-block;
@@ -321,8 +354,8 @@ a:hover{
       
     }
     .project_border{
-        border-bottom: var(--sky_blue) 3px solid;
-        margin-bottom: 21px;
+        border-bottom-style: solid;
+        border-bottom-color: var(--sky_blue);
     }
     
 }
