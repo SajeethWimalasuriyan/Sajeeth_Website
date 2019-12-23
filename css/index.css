@@ -5,8 +5,10 @@ html{
     margin:0;
 }
 :root{
-    --background_color: #26262b;
-    --sky_blue: #3AAFA9;
+    --background_color: 
+    #110f0f;
+    --sky_blue: 
+    #e8eb41;
 }
 body{
     background-color: var(--background_color);
@@ -14,12 +16,14 @@ body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 .navbar{
     background-color:var(--background_color);
     border-bottom: var(--sky_blue) 5px solid;
 }
 .navbar_ex {
+    z-index: 3;
     position: fixed;
     width: 100vw;
     top: 0;
@@ -35,25 +39,62 @@ body{
 .container-fullwidth{
     border-bottom: 5px solid var(--sky_blue);
 }
+
+
+.FrontPage{
+display: flex;
+height: 97vh;
+width: 100vw;
+align-items: center;
+justify-content: center;
+color:white;
+text-align: center;
+flex-wrap: wrap;
+background:url("/Pictures/mbps.jpg");
+background-size: cover;
+margin-bottom: 30px;
+
+}
+
+#intro{
+    width: 100%;
+    margin-top: 21vh;
+    font-size: 60px;
+    font-size: 90px;
+    z-index: 2;
+
+ 
+}
+#blur{
+    margin-top: 30px;;
+    height:92.5vh;
+    width:100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+    z-index: 1;
+    position: absolute;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+#DownScroll{
+    width: 70px;
+    z-index: 2;
+     /*Animations*/
+     animation-duration: 1.5s;
+}
+
+
+
+
+
+
+
+
 .icons{
     font-size:69px;
     color: #3AAFA9;
     padding: 16px;
 }
-h1{
-    text-align: center;
-    color:white;
-    margin-top: 30vh;
-    font-size: 60px;
-}
-#arrow{
-    margin-top: 30vh;
-    float: bottom;
-    width: 70px;
-    height: 70px;
-   /*Animations*/
-    animation-duration: 1.5s;
-}
+
 .text{
     width: 30vw;
     background-color: antiquewhite;
@@ -65,6 +106,7 @@ h1{
     text-align:center;
     max-width: 1500px;
     margin: 0 auto;
+    
 }
 .about{
     text-align: center;
@@ -102,12 +144,12 @@ h1{
     margin: 10px;
 }
 .bar_fill{
-    background-color: #3AAFA9;
+    background-color: var(--sky_blue);
 }
 .per{
     text-transform: uppercase;
     padding: 3px;
-    color: white;
+    color: black;
 }
 .website{
     grid-row: 1;
@@ -281,7 +323,7 @@ footer p{
     .about{
         display: inline-block;
    }
-    h1{
+    #intro{
         font-size: 50px;
    }
     .my_stuff img{
