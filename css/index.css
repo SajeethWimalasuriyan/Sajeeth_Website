@@ -202,39 +202,40 @@ p{
     grid-column: 1;
     grid-row:1;
     background-color: black;
-    border-right: 10px solid var(--sky_blue);
+    border-right: 5px solid var(--sky_blue);
 }
 .project_2{
     grid-column: 2;
     grid-row:2;
     background-color: black;
+    border-top: 5px solid var(--sky_blue);
 }
 .project_3{
     grid-column: 1;
     grid-row:3;
     background-color: black;
     z-index: -1;
-    border-right: 10px solid var(--sky_blue);
+    border-right: 5px solid var(--sky_blue);
+    border-top: 5px solid var(--sky_blue);
+
     margin-bottom: 11px;
 }
 .project_border{
     border-bottom-style: hidden;
 }
 .disc_1{
-    border-bottom: 10px solid var(--sky_blue);
 
     grid-column: 2;
     grid-row:1;
 }
 .disc_2{
-    border-top: 10px solid var(--sky_blue);
-    border-right: 10px solid var(--sky_blue);
-    border-bottom: 10px solid var(--sky_blue);
+    border-top: 5px solid var(--sky_blue);
+    border-right: 5px solid var(--sky_blue);
     grid-column: 1;
     grid-row:2;
 }
 .disc_3{
-    border-top: 10px solid var(--sky_blue);
+    border-top: 5px solid var(--sky_blue);
     grid-column: 2;
     grid-row:3;
     z-index: -1;
