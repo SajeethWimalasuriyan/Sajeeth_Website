@@ -331,12 +331,16 @@ footer p{
    }
 }
 @media only screen and (max-width: 600px){
+    .project_1, .project_2, .project_3, .disc_1,.disc_2,.disc_3{
+        border: none;
+        margin: 0;
+    }
     .my_stuff {
         display: inline-block;
    }
-    .disc_2, .disc_3{
-        margin-top:10px;
-   }
+    #img1, #img2, #img3{
+        width:100%;
+    }
     .website{
         display: inline-block;
    }
