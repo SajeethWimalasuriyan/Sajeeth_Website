@@ -186,39 +186,58 @@ p{
     text-align: center;
     max-width:1500px;
     margin: 0 auto;
+   
 }
 .my_stuff{
+    border-top: 10px solid var(--background_color);
+    border-bottom: 10px solid var(--background_color);
+    margin-bottom: -25px;
     margin-top: 39px;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    
 }
 .project_1{
     grid-column: 1;
     grid-row:1;
+    background-color: black;
+    border-right: 10px solid var(--sky_blue);
 }
 .project_2{
     grid-column: 2;
     grid-row:2;
+    background-color: black;
 }
 .project_3{
     grid-column: 1;
     grid-row:3;
+    background-color: black;
+    z-index: -1;
+    border-right: 10px solid var(--sky_blue);
+    margin-bottom: 11px;
 }
 .project_border{
     border-bottom-style: hidden;
 }
 .disc_1{
+    border-bottom: 10px solid var(--sky_blue);
+
     grid-column: 2;
     grid-row:1;
 }
 .disc_2{
+    border-top: 10px solid var(--sky_blue);
+    border-right: 10px solid var(--sky_blue);
+    border-bottom: 10px solid var(--sky_blue);
     grid-column: 1;
     grid-row:2;
 }
 .disc_3{
+    border-top: 10px solid var(--sky_blue);
     grid-column: 2;
     grid-row:3;
+    z-index: -1;
 }
 .my_stuff img{
     width: 50vw;
@@ -237,6 +256,7 @@ p{
     color: white;
 }
 .see_more{
+    z-index: 1;
     background-color: var(--sky_blue);
     color: var(--background_color);
     text-align: center;
