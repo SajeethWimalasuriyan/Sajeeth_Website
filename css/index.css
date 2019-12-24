@@ -254,6 +254,10 @@ p{
 }
 .projects h2{
     color: white;
+   
+}
+.projects .phantomBorder{
+    margin-bottom: -20px;
 }
 .see_more{
     z-index: 1;
@@ -333,16 +337,26 @@ footer p{
 @media only screen and (max-width: 600px){
     .project_1, .project_2, .project_3, .disc_1,.disc_2,.disc_3{
         border: none;
-        margin: 0;
+    }
+    .project_1, .project_2{
+        padding-top: 25px;
+        border-bottom: solid var(--sky_blue) 5px;
+    }
+    .project_3{
+        padding-top: 25px;
+        margin-bottom: -23px;
     }
     .my_stuff {
         display: inline-block;
+        margin-bottom: -20px;
    }
     #img1, #img2, #img3{
+        margin-bottom: -19px;
         width:100%;
     }
     .website{
         display: inline-block;
+        margin-bottom: -30px;
    }
     .about{
         display: inline-block;
@@ -350,15 +364,19 @@ footer p{
     #intro{
         font-size: 50px;
    }
+   .see_more{
+    margin-top: 15px;
+   }
     .my_stuff img{
         width: 86vw;
    }
     .see_more h4{
         font-size: 20px;
+     
    }
-    .project_border{
-        border-bottom-style: solid;
-        border-bottom-color: var(--sky_blue);
+
+   .cell-1,.cell-2,.cell-3{
+       margin-left: 25px;
    }
 }
 @media only screen and (max-width: 900px){
