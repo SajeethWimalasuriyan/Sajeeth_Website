@@ -16,8 +16,10 @@ body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
     
 }
+ 
 .navbar{
     background-color:var(--background_color);
     border-bottom: var(--sky_blue) 5px solid;
