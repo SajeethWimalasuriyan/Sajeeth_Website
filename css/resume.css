@@ -141,24 +141,22 @@
       text-align:justify;
   }
   
-  @media screen and (max-width: 700px) {
-      .right,.left
-      {
-          float:none;
-      position:relative !important;
-          width:100%;
-      min-height:500px;
-      }
-      
-   
-    }
+
   
 
   
   @media screen and (max-width: 700px) {
       body
   { font-size:16px;}
+  .right,.left
+  {
+      float:none;
+  position:relative !important;
+      width:100%;
+  min-height:500px;
+  }
   
+
   .left{
       border-right: hidden;
       border-bottom:2px solid var(--sky_blue);
