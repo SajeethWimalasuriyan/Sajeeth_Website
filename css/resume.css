@@ -141,7 +141,7 @@
       text-align:justify;
   }
   
-  @media screen and (max-width: 48em) {
+  @media screen and (max-width: 700px) {
       .right,.left
       {
           float:none;
