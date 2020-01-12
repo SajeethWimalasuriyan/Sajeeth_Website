@@ -6,7 +6,7 @@ html{
 }
 :root{
     --background_color: 
-    #110f0f;
+    #1b1b1b;
     --sky_blue: 
     #e8eb41;
 }
@@ -19,9 +19,9 @@ body{
 
     
 }
- 
+
 .navbar{
-    background-color:var(--background_color);
+    background-color:#131313;
     border-bottom: var(--sky_blue) 5px solid;
 }
 .navbar_ex {
@@ -123,12 +123,12 @@ margin-bottom: 30px;
     max-width: 800px;
 }
 .description img{
-    height: 55vh;
+    height: auto;
     width: 100%;
     max-width: 300px;
     max-height: 350px;
     margin-bottom:30px;
-    border-radius: 30px;
+    border-radius: 300px;
 }
 .skills{
     grid-column: 2;

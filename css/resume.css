@@ -1,0 +1,179 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   }
+   :root{
+    --background_color: 
+    #252525;
+    --sky_blue: 
+    #eeff00;
+    --light_white:
+    #a0a0a0;
+}
+  html
+  {
+      font-size:100%;
+  }
+  .zim{
+    color: var(--sky_blue);
+}
+  body
+  {
+      color:white;
+      font-family:Lora, serif;
+      font-size:16px;
+      font-weight:400;
+      line-height:1.4;
+      background-color: var(--background_color);
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  #me{
+      width: 160px;
+      margin-left: 1.5vw;
+      border-radius: 90px;
+
+    }
+  
+  .skill-set li:hover
+  {
+      background:var(--sky_blue);
+      color:black;
+  }
+  
+  h1
+  {
+      color: white;
+  }
+  
+  .wrapper
+  {
+      height:100%;
+  }
+  
+  .left
+  {
+      background-color:rgba(0, 0, 0, 0.993);
+      border-right:2px solid var(--sky_blue);
+      float:right;
+      height:100%;
+      margin-left:-1px;
+      min-width:256px;
+      position:fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      width:33.33%;
+    
+  }
+  .name-hero h1{
+      font-size: 30px;
+  }
+  .name-hero p{
+    font-size: 12px;
+}
+  
+  .right
+  {
+      float:right;
+      height:100%;
+      position:relative;
+      width:66.66%;
+  }
+  
+  
+  .name-hero
+  {
+      background:rgba(0,0,0,.001);
+      
+        margin-top: -160px;    
+      width:85%;
+  }
+
+
+  
+  .inner
+  {
+      margin:0 auto;
+      max-width:975px;
+      padding:3em;
+      margin-top: -30px;
+  }
+  
+  .inner h1
+  {
+      font-size:1.75em;
+  }
+  
+  .inner p
+  {
+      color:var(--light_white);
+  }
+  
+  .inner p em
+  {
+      color:white;
+      font-style:normal;
+  }
+  
+  .inner section
+  {
+      margin:30px auto;
+  }
+  
+  ul
+  {
+      list-style-type:none;
+      margin-top:-10px;
+      max-width:570px;
+      padding:0;
+  }
+  
+  .skill-set li
+  {
+      background:rgba(0,0,0,.75);
+      border-radius:5px;
+      color:#FFF;
+      display:inline-block;
+      list-style:none;
+      margin:15px 15px 0 0;
+      padding:10px;
+      text-align:justify;
+  }
+  
+  @media screen and (max-width: 48em) {
+      .right,.left
+      {
+          float:none;
+      position:relative !important;
+          width:100%;
+      min-height:500px;
+      }
+      
+   
+    }
+  
+
+  
+  @media screen and (max-width: 700px) {
+      body
+  { font-size:16px;}
+  
+  .left{
+      border-right: hidden;
+      border-bottom:2px solid var(--sky_blue);
+
+  }
+  .name-hero{
+      margin-top: 0;
+  }
+
+  .inner h1
+  {
+      font-size: 25px;
+  }
+  .inner p
+  {
+      font-size: 14px;
+  }
+}
