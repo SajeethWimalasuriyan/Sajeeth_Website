@@ -145,7 +145,7 @@
   
 
   
-  @media screen and (max-width: 700px) {
+  @media only screen and (max-width: 700px){
       body
   { font-size:16px;}
   .right,.left
